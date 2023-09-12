@@ -1,0 +1,6 @@
+{
+  "short_name": "PoC",
+  "name": "PointOfCorrection",
+  "start_url": ".",
+  "display": "standalone"
+}

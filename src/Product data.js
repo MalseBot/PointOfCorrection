@@ -1,0 +1,51 @@
+const Product = [
+  {
+    id: 1,
+    Pname: 'Acer Nitro 17 ',
+    info: 'The Acer Nitro 17 gaming laptop with DLSS 3 comes out swinging with crisp visuals at 17.3-inches, stellar sound from DTS: X™, and the latest 13th Gen processors from Intel® and NVIDIA® GeForce RTX 40 Series graphics.',
+    category: 'laptops',
+    img: 'https://imgs.search.brave.com/AOqgRx-iBnjKxDtFVdlsCChKZbQPvYShpFjhz40GJ9U/rs:fit:746:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC43/MTAtVnVFY1pic1Ew/SmtmUG5YTUd3SGFF/dCZwaWQ9QXBp',
+    link: 'https://www.acer.com/us-en/laptops/nitro/nitro-17-intel',
+  },
+  {
+    id: 2,
+    Pname: 'Aspire TC',
+    info: 'Make every day easier with the Aspire TC and snap between tasks with the latest 12th Gen Intel® Core™ processors and NVIDIA® graphics—providing the solution for powerful multitasking and entertainment.',
+    category: 'Desktop',
+    img: 'https://imgs.search.brave.com/hxjd-LTpuYVWVJwJrn4GA1Ec39rUYbm03SXeH-SMQr4/rs:fit:632:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5E/d1dWdTJ0MWJHWWtU/TUtrd2hqQlRRSGFG/aiZwaWQ9QXBp',
+    link: 'https://www.acer.com/us-en/desktops-and-all-in-ones/aspire-classic-desktops/aspire-tc',
+  },
+  {
+    id: 3,
+    Pname: 'Nitro XF3',
+    info: 'Get in the game with the latest AMD FreeSync™ Premium3 displays that eliminates tearing, stuttering, artifacts, and flicker with refresh rates up to 165Hz1.',
+    img: 'https://images.acer.com/is/image/acer/XF3_XF243_wp_01-1?:Visual-Filter-L$',
+    category: 'monitor',
+    link: 'https://www.acer.com/us-en/monitors/gaming/nitro-xf3',
+  },
+  {
+    id: 4,
+    Pname: 'Aegis RS 13th',
+    info: 'The Aegis RS series is the gold standard for anyone looking to take their gaming to the next level. Combining breakthrough technologies with up to a 13th Gen Intel® Core™ i7 processor and MSI GeForce RTX™4080 graphics card, Aegis RS brings Pro-level gaming performance from the get-go.',
+    category: 'Desktop',
+    img: 'https://asset.msi.com/resize/image/global/product/product_1669160633809914962a2cb40d02df74877b17555b.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png',
+    link: 'https://us.msi.com/Desktop/Aegis-RS-13th/',
+  },
+  {
+    img: 'https://asset.msi.com/resize/image/global/product/product_16472202135684189c073fe3cec44093fbc0db5bb3.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png',
+    id: 5,
+    Pname: 'GT76 Titan DT (Intel® 10th Gen)(GeForce RTX™)',
+    info: 'Evolve and Start Ahead. Choose the Dragon Spirit with the latest MSI Gaming Laptops equipped with 10th Gen. Intel® Core™ i9 processors & the latest GeForce® RTX SUPER™ graphics designed for gamers with style. Head first into the New Generation.',
+    category: 'Laptop',
+    link: 'https://us.msi.com/Laptop/GT76-Titan-10SX',
+  },
+  {
+    id: 6,
+    Pname: 'Optix MEG381CQR Plus',
+    info: 'ake on any game without tearing, stuttering, flicker, or artifacts. G-SYNC Ultimate dynamically matches the refresh rate of the display to the frame rate of the GPU. Unlike other solutions, its unrestricted refresh rate supports from zero Hertz up to the maximum supported by the LCD panel—so you can count on exceptional performance in every game.',
+    category: 'monitor',
+    img: 'https://asset.msi.com/resize/image/global/product/product_162694681640b518ef3044e3c2affce1931ec1154f.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png',
+    link: 'https://us.msi.com/Monitor/Optix-MEG381CQR-Plus/Overview',
+  },
+]
+export default Product
